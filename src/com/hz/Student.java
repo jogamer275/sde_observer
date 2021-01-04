@@ -1,6 +1,6 @@
 package com.hz;
 
-public abstract class Student {
+public abstract class Student implements Observer {
 
     public String name;
 
@@ -18,4 +18,9 @@ public abstract class Student {
     }
 
     public abstract String getOpinion();
+
+    public void update(String topic) {
+
+        this.listen(topic);
+    }
 }

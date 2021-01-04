@@ -1,6 +1,6 @@
 package com.hz;
 
-public class Kees extends Student {
+public class Kees extends Student{
 
     public Kees() {
         super("Kees");

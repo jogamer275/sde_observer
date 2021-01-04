@@ -11,6 +11,10 @@ public class Main {
         Student kees = new Kees();
 
 
+        andries.subscribe(kees);
+        andries.subscribe(marie);
+
+        andries.teach();
 
     }
 }

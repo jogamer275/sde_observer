@@ -25,7 +25,7 @@ public class Teacher extends Publisher {
         return this.topics.get(index);
     }
 
-    public void Teach() {
+    public void teach() {
 
         String topic = this.getTopic();
 
