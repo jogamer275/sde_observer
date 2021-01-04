@@ -3,7 +3,7 @@ package com.hz;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Teacher {
+public class Teacher extends Publisher {
 
     private ArrayList<String> topics;
     private Random _random;
@@ -29,11 +29,15 @@ public class Teacher {
 
         String topic = this.getTopic();
 
+        this.currentTopic = topic;
+
         String sayHello = "Hello, my name is Andries, your teacher for today.";
         String intro = String.format("This course is about %s", topic);
 
 
         Console.writeLine(sayHello);
         Console.writeLine(intro);
+
+        this.notifyObservers();
     }
 }
