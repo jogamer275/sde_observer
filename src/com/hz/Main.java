@@ -16,6 +16,10 @@ public class Main {
         // ugly way to show
         // the power of Observer
 
+        // use:
+        // add <studentname>
+        // remove <studentname>
+
         while(true) {
 
             andries.teach();
