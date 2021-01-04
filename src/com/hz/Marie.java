@@ -9,7 +9,7 @@ public class Marie extends Student {
     @Override
     public String getOpinion() {
 
-        String msg = "Oh no! %s is so boring..";
+        String msg = "Oh no! %s... so boring.";
 
         return msg;
     }

@@ -21,6 +21,13 @@ public class Console {
         }
     }
 
+    public static String[] getWords(String sentence) {
+
+        String[] words = sentence.split("\\s+");
+
+        return words;
+    }
+
     public static void writeLine(String str) {
 
         System.out.println(str);
