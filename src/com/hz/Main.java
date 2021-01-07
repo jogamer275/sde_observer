@@ -16,9 +16,6 @@ public class Main {
         andries.subscribe(marie);
         andries.subscribe(kees);
 
-        // ugly way to show
-        // the power of Observer
-
         // use:
         // add <studentname>
         // remove <studentname>
